@@ -1,6 +1,6 @@
 module ConfigWriter
   class << self
-    @@ssh_config_path = '~/.ssh/config'
+    @@ssh_config_path = '/home/ec2-user/.ssh/config'
     DEFAULT_USER_NAME = 'ec2-user'
     def write_config(instances)
       
